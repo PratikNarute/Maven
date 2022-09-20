@@ -37,6 +37,7 @@ public class LoginPage
 	 
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@name='username']")));
 		username.sendKeys("Admin");
+		Syso
 	}
 	
 	public void password()
